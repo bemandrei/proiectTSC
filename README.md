@@ -40,40 +40,42 @@ USB-C este folosit pentru alimentare si este protejat de circuitul ESD.
 Butoanele sunt conectate la pini GPIO si sunt folosite pentru interactiunea utilizatorului.
 
 
-Pin Mapping (nRF52840)
+## Pin Mapping (nRF52840)
 
-- SPI Display:
-  - MOSI -> P0.xx
-  - SCK -> P0.xx
-  - EPD_CS -> P0.xx
-  - EPD_DC -> P0.xx
-  - EPD_RST -> P0.xx
-  - EPD_BUSY -> P0.xx
+### SPI - E-Paper Display
+- MOSI -> P0.31
+- SCK -> P0.30
+- EPD_CS -> P0.04
+- EPD_DC -> P0.13
+- EPD_RST -> P0.14
+- EPD_BUSY -> P0.15
 
-- I2C:
-  - SDA -> P0.xx
-  - SCL -> P0.xx
+### I2C (IMU + Fuel Gauge + Haptic)
+- SDA -> P1.01
+- SCL -> P1.02
 
-- IMU:
-  - INT1 -> GPIO
-  - INT2 -> GPIO
+### IMU
+- IMU_INT1 -> P0.19
+- IMU_INT2 -> P0.20
 
-- Haptic:
-  - HAPTIC_EN -> GPIO
+### Haptic Driver
+- HAPTIC_EN -> P1.09
 
-- USB:
-  - D+ / D- -> pini dedicati
-  - VBUS -> alimentare
+### Fuel Gauge
+- ALERT -> P0.21
 
-- Debug:
-  - SWDIO
-  - SWDCLK
-  - RESET
+### USB
+- D+ -> pin dedicat USB (D+)
+- D- -> pin dedicat USB (D-)
+- VBUS -> alimentare
 
-- Fuel Gauge:
-  - ALERT -> GPIO
+### Debug (SWD)
+- SWDIO -> SWDIO
+- SWDCLK -> SWDCLK
+- RESET -> P0.18
 
----
+### Alte GPIO
+- Butoane -> P0.13, P0.14 (shared sau configurabile)
 
 Power Consumption
 
