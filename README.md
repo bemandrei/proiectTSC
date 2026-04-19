@@ -1,4 +1,7 @@
 InkTime Smartwatch
+
+Diagrama se afla in images
+
 Bill of Materials (BOM)
 
 | Componenta | Model | Rol |
