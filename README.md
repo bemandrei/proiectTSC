@@ -7,29 +7,31 @@ Bill of Materials (BOM)
 ## Bill of Materials (BOM)
 
 | Categorie | Capsula | Denumire Schematic | JLC |
-|----------|---------|--------------------|-----|
-| Capacitors | 0201 | C1, C2, C3, C4, C5, C7, C8, C9, C11, C12, C13, C16, C17, C18, C19, C22, C23, C27, C29, C30, C31, C32, C34, C37, C38, C42, EPD_C5 | https://jlcpcb.com/parts/1st/Capacitors_1 |
-| Capacitors | 0402 | C6, C14, C15, C20, C21, C24, C25, C33, C39, C43, EPD_C1, EPD_C2, EPD_C6, EPD_C7, EPD_C8, EPD_C9, EPD_C10, EPD_C11, EPD_C12, C2-EP-DR1 | https://jlcpcb.com/parts/1st/Capacitors_1 |
-| Resistors | 0201 | R2, R3, R4, R5, R7, R8, R9, R17, R18, R_TYPE_SEL, R1_EP_DR, R2_EP_DR, R2_PWR_EPD, R1_USB, R2_USB | https://jlcpcb.com/parts/1st/Resistors_1 |
-| Inductors | 0402 | L1, L2, L3 | https://jlcpcb.com/parts/1st/Inductors_1 |
-| Inductors | SMD | L5, L7 | https://jlcpcb.com/parts/1st/Inductors_1 |
-| ICs | BGA/WLCSP | U1 (nRF52840) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| ICs | BGA/WLCSP | IC1 (BQ25180YBGR) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| ICs | BGA/WLCSP | IC2 (DRV2605YZFR) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| ICs | BGA/WLCSP | IC9 (RT6160AWSC) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| ICs | LGA | IC3 (BMA421) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| ICs | SON/TDFN | U3 (MAX17048) | https://jlcpcb.com/parts/1st/IntegratedCircuits_1 |
-| Diodes/FETs | SOD-123 | D2, D4, D5 | https://jlcpcb.com/parts/1st/Diodes_1 |
-| Diodes/FETs | SOT-23 | Q1 (DMG2305) | https://jlcpcb.com/parts/1st/Transistors_1 |
-| Diodes/FETs | SOT-323 | Q3 (SI1308EDL) | https://jlcpcb.com/parts/1st/Transistors_1 |
-| Diodes/FETs | SOT-23-6 | D3 (USBLC6) | https://jlcpcb.com/parts/1st/ESDProtection_1 |
-| Connectors | FPC 24 | J1 | https://jlcpcb.com/parts/1st/Connectors_1 |
-| Connectors | USB-C | J4 | https://jlcpcb.com/parts/1st/Connectors_1 |
-| Connectors | Tag-Connect | J2 (TC2030) | https://jlcpcb.com/parts/1st/Connectors_1 |
-| User I/O | Switch | SW_DN, SW_ENT, SW_UP | https://jlcpcb.com/parts/1st/Switches_1 |
-| Antenna | RF | ANT1 | https://jlcpcb.com/parts/1st/RFComponents_1 |
-| Oscillator | Crystal | X1, X2 | https://jlcpcb.com/parts/1st/CrystalsOscillators_1 |
-| Mechanical | Custom | Baterie, Display, Shaker | - |
+| :--- | :--- | :--- | :--- |
+| **Capacitors** | **0201** | C1, C2, C3, C4, C5, C7, C8, C9, C11, C12, C13, C16, C17, C18, C19, C22, C23, C27, C29, C30, C31, C32, C34, C37, C38, C42, EPD_C5 | [JLCPCB](https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525) |
+| | **0402** | C6, C14, C15, C20, C21, C24, C25, C33, C39, C43, EPD_C1, EPD_C2, EPD_C6, EPD_C7, EPD_C8, EPD_C9, EPD_C10, EPD_C11, EPD_C12, C2-EP-DR1 | [JLCPCB](https://jlcpcb.com/partdetail/C9900006337) |
+| **Resistors** | **0201** | R2, R3, R4, R5, R7, R8, R9, R17, R18, R_TYPE_SEL, R1_EP_DR, R2_EP_DR, R2_PWR_EPD, R1_USB, R2_USB | [JLCPCB](https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741) |
+| **Inductors** | **0402** | L1, L2, L3 | [JLCPCB](https://jlcpcb.com/partdetail/6763488-FTC252012SR47MBCA/C5832368) |
+| | **SMD** | L5, L7 | [JLCPCB](https://jlcpcb.com/partdetail/Walsin_TechCorp-WR06X60R4FTL/C168340) |
+| **ICs** | **BGA/WLCSP** | U1 (nRF52840) | [JLCPCB](https://jlcpcb.com/partdetail/NordicSemicon-NRF52840_QIAAR/C190794) |
+| | **BGA/WLCSP** | IC1 (BQ25180YBGR) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-BQ25180YBGR/C3682423) |
+| | **BGA/WLCSP** | IC2 (DRV2605YZFR) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-DRV2605YZFR/C81079) |
+| | **BGA/WLCSP** | IC9 (RT6160AWSC) | [JLCPCB](https://jlcpcb.com/partdetail/RichtekTech-RT6160AWSC/C7065276) |
+| | **LGA** | IC3 (BMA421) | [JLCPCB](https://jlcpcb.com/partdetail/BoschSensortec-BMA421/C5242966) |
+| | **SON/TDFN** | U3 (MAX17048) | [JLCPCB](https://jlcpcb.com/partdetail/2777647-MAX17048GT10/C2682616) |
+| **Diodes/FETs** | **SOD-123** | D2, D4, D5 | [JLCPCB](https://jlcpcb.com/partdetail/ST_Semtech-1N4148W/C81598) |
+| | **SOT-23** | Q1 (DMG2305) | [JLCPCB](https://jlcpcb.com/partdetail/TECHPUBLIC-DMG2305UX/C2940629) |
+| | **SOT-323** | Q3 (SI1308EDL) | [JLCPCB](https://jlcpcb.com/partdetail/VishayIntertech-SI1308EDL_T1GE3/C469327) |
+| | **SOT-23-6** | D3 (USBLC6) | [JLCPCB](https://jlcpcb.com/partdetail/STMicroelectronics-USBLC62SC6/C7519) |
+| **Connectors** | **FPC 24** | J1 | [JLCPCB](https://jlcpcb.com/partdetail/MOLEX-5034802400/C122434) |
+| | **USB-C** | J4 | [JLCPCB](https://jlcpcb.com/partdetail/EverlightElec-16_213SDRC_S530_A3TR8/C71911) |
+| | **Tag-Connect** | J2 (TC2030) | [JLCPCB](https://jlcpcb.com/partdetail/MicrochipTech-TC2030_CLIP3PACK/C5444772) |
+| **User I/O** | **Switch** | SW_DN, SW_ENT, SW_UP | [JLCPCB](https://jlcpcb.com/partdetail/ALPSALPINE-SKRKAEE020/C115357) |
+| **RF** | **Antenna** | ANT1 | [JLCPCB](https://jlcpcb.com/partdetail/JohansonDielectrics-2450AT18B100E/C2917717) |
+| **Oscillator** | **Crystal** | X1, X2 | [JLCPCB](https://jlcpcb.com/partdetail/STMicroelectronics-BALNRF01D3/C87765) |
+| **Mechanical** | **Custom** | Baterie, Display, Shaker | - |
+
+
 Functionalitate Hardware
 
 Proiectul este bazat pe microcontroller-ul nRF52840 care gestioneaza toate perifericele.
